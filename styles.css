@@ -20,7 +20,7 @@ body {
     display: flex;
     max-width: 1200px;
     width: 90%;
-    background: #1c1b29;
+    background: #3a375f;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -63,7 +63,7 @@ body {
 
 .image-section {
     flex: 0.5;
-    background: #6C63FF;
+    background: #9a63ff;
     display: flex;
     justify-content: center;
     align-items: center;
