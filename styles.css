@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #6C63FF, #C4F043);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    background: #1c1b29;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 2rem;
+    flex: 1;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFD700;
+}
+
+.main-info {
+    margin-top: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #D3D3D3;
+}
+
+.details p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #C0C0C0;
+}
+
+.image-section {
+    flex: 0.5;
+    background: #6C63FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 80%;
+    max-width: 200px;
+    border: 5px solid #fff;
+}
