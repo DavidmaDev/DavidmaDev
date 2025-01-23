@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(90deg, #6C63FF, #C4F043);
+    background: linear-gradient(90deg, #6C63FF, #a7cf2e);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
 .container {
     display: flex;
     max-width: 1200px;
-    width: 90%;
+    width: 91%;
     background: #3a375f;
     border-radius: 10px;
     overflow: hidden;
